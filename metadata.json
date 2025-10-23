@@ -1,0 +1,5 @@
+{
+  "name": "Symptom AI Analyzer",
+  "description": "An AI-powered medical assistant to help users understand their symptoms by providing potential causes, triage recommendations, and medication options based on their input. This tool does not provide medical advice.",
+  "requestFramePermissions": []
+}
