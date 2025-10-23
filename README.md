@@ -1,20 +1,73 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🧠 Symptom AI Analyzer
+🔍 Overview
 
-# Run and deploy your AI Studio app
+Symptom AI Analyzer is an intelligent web application designed to analyze user-entered symptoms and predict possible diseases using Machine Learning.
+It also integrates a contact system with email functionality, allowing nearby doctors to connect with patients for emergencies or schedule appointments based on the patient's condition.
 
-This contains everything you need to run your app locally.
+This project aims to make preliminary health assessment more accessible, helping users take timely action before visiting a healthcare professional.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Y6bTi6ldorU6CRzF89UaibWd5zC5U8Vr
+🚀 Features
 
-## Run Locally
+🩺 Symptom-Based Disease Prediction – Uses trained ML models to identify possible diseases.
 
-**Prerequisites:**  Node.js
+📧 Email Integration – Automatically sends emails through the contact form to nearby doctors.
+
+👩‍⚕️ Doctor–Patient Interaction – Enables doctors to contact patients or provide appointments in emergencies.
+
+💾 SQLite Database – Securely stores user and contact details.
+
+🌐 User-Friendly Interface – Simple and responsive web UI for seamless user experience.
+
+🧰 Tech Stack
+
+Frontend: HTML, CSS, JavaScript
+Backend: Python (Flask)
+Machine Learning: Scikit-learn / Pandas / NumPy
+Database: SQLite
+Email Integration: Flask-Mail / SMTP
+Version Control: Git & GitHub
+
+⚙️ Installation
+
+Clone the repository
+
+git clone https://github.com/satyakrishnadurga/Symptom_AI_Analyzer.git
+cd symptom-ai-analyzer
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Create and activate a virtual environment
+
+python -m venv venv
+source venv/bin/activate   # for macOS/Linux
+venv\Scripts\activate      # for Windows
+
+
+Install dependencies
+
+pip install -r requirements.txt
+
+
+Run the application
+
+python app.py
+
+
+Open your browser and go to:
+👉 http://127.0.0.1:5000/
+
+🎥 Demo Video
+
+ https://github.com/user-attachments/assets/46201c56-42cf-4949-a768-e6c0a524910fhttps://github.com/user-attachments/assets/46201c56-42cf-4949-a768-e6c0a524910f
+ 
+👨‍💻 Developers
+
+Satya Krishna Durga P	      Project Lead / ML Developer	https://github.com/satyakrishnadurga
+
+Pavani P              Frontend Developer	                https://github.com/PavaniP11
+
+Sharief Sk	          Backend Developer	         https://github.com/Sk-Sharief
+
+📬 Contact
+
+If you have any feedback, suggestions, or collaboration ideas, feel free to reach out:
+📧 sameerapuppala2005@gmail.com
